@@ -7,6 +7,6 @@
 * Создаём нового пользователя командой `sudo adduser new_hsiuayes`<br>
 ![Создание нового пользователя](src/screen/part2.png)<br>*Создание нового пользователя*
 * Вызываем команду `sudo usermod -aG adm new_hsiuayes`<br>
-![new_hsiuayes даны права администратора](src/screen/part2.1png)<br>*new_hsiuayes даны права администратора*
+![new_hsiuayes даны права администратора](src/screen/part2_1.png)<br>*new_hsiuayes даны права администратора*
 * Вызываем команду `cat /etc/passwd` <br>
-![Проверка создания пользователя](src/screen/part2.2png)<br>*Проверка создания пользователя*
+![Проверка создания пользователя](src/screen/part2_2.png)<br>*Проверка создания пользователя*
