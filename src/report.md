@@ -65,4 +65,13 @@
     ![Загружаем пакеты обновления](src/screen/part4.1.png)<br>*Загружаем пакеты обновления*<br>
     * Проверяем обновления командой `sudo do-release-upgrade`<br>
     ![Проверяем обновления](src/screen/part4.2.png)<br>*Проверяем обновления*<br>
+
+## Part 5. Использование команды sudo
+1. 
+    * Разрешаем пользователю(new_hsiuayes), созданному в Part 2, выполнять команду sudo командой `sudo usermod -a -G sudo new_hsiuayes`<br>
+    ![Разрешение sudo](src/screen/part5.png)<br>*Разрешение sudo*
+    * Переключение на пользователя `su - new_hsiuayes`<br>
+    ![Переключение](src/screen/part5.1.png)<br>*Переключение*
+    * Изменение и проверка hostname ОС от имени пользователя *new_hsiuayes* `sudo hostname marley`<br>
+    ![hostname ОС от имени пользователя new_hsiuayes](src/screen/part5.2.png)<br>*hostname ОС от имени пользователя new_hsiuayes*
     
