@@ -83,5 +83,64 @@
     ![Вывод команды](src/screen/part6.1.png)<br>*Вывод команды*<br>
 
 ## Part 7. Установка и использование текстовых редакторов
-1. 
-    * 
+1. Устанавдиваем текстовый редактор MCEDIT командой `sudo apt install mc`<br>
+    
+2. Создаём и редактируем файл с сохранением изменений:
+    * **VIM**: создаем файл с помощью команды `vim hsiuayes_vim.txt`<br>
+    * Нажимаем на "i" в самом редакторе, для редактирования<br>
+    * Пишем свой ник: "hsiuayes"<br>
+    Для выхода с сохранением используем команды: `Esc`, `:wq`, `Enter`<br>
+    ![VIM](src/screen/part7.png)<br>
+
+    * **NANO**: создаем файл с помощью команды `nano test_nano.txt`<br>
+    * Пишем свой ник: "hsiuayes"<br>
+    * Для выхода использовать команды: `ctrl+x`, `Y`, `Enter`<br>
+    ![NANO](src/screen/part7.1.png)<br>
+
+    * **MCEDIT**: создаем файл с помощью команды `mcedit test_mcedit.txt`<br>
+    * Пишем свой ник: "hsiuayes"<br>
+    * Для выхода с сохранением используем команды: `fn+F2`, `Enter`, `fn+F10`<br>
+    ![MCEDIT](src/screen/part7.2.png)<br>
+
+3. Редактирование файла с заменой слова без сохранения изменений:
+    * **VIM**: открываем файл с помощью команды `vim test_vim.txt`<br>
+    * Нажимаем на "i" в самом редакторе, для редактирования<br>
+    * Изменяем "hsiuayes" на "21 School 21"<br>
+    * Для выхода без сохранения используем команды: `Esc`, **`:q!`**, `Enter`<br>
+    ![VIM](src/screen/part7.3.png)<br>
+
+    * **NANO**: открываем файл с помощью команды `nano test_nano.txt`<br>
+    * Изменяем "hsiuayes" на "21 School 21"<br>
+    * Для выхода без сохранения используем команды: `ctrl+x`, `N`, `Enter`<br>
+    ![NANO](src/screen/part7.4.png)<br>
+
+    * **MCEDIT**: открываем файл с помощью команды `mcedit test_mcedit.txt`.<br>
+    * Изменяем "hsiuayes" на "21 School 21"<br>
+    * Для выхода без сохранения используем команды: `fn+F10`, `No`, `Enter`<br>
+    ![MCEDIT](src/screen/part7.5.png)<br>
+
+4. Редактирование файла с поиском и заменой слова:
+    * **VIM**: открываем файл с помощью команды `vim test_vim.txt`<br>
+    * Для поиска в VIM вводим `/hsi` и искомое слово выделяется в самом редакторе<br>
+    ![VIM](src/screen/part7.6.png)<br>
+    * Для замены слова в VIM вводим `:%s/hsiuayes/21 School 21` и слово "hsiuayes" заменяется на "21 School 21"<br>
+    ![VIM](src/screen/part7.7.png)<br>
+    ![VIM](src/screen/part7.8.png)<br>
+
+    * **NANO**: открываем файл с помощью команды `nano test_nano.txt`<br>
+    * Для поиска в NANO вводим `ctrl+W`<br>
+    ![NANO](src/screen/part7.9.png)<br>
+    * Для замены слова в NANO вводим `ctrl+\`, пишем "hsiuayes", нажимаем `Enter`, пишем "21 School 21", нажимаем `Enter`, выбираем `Y`<br>
+    ![NANO](src/screen/part7.10.png)<br>
+    ![NANO](src/screen/part7.11.png)<br>
+    ![NANO](src/screen/part7.12.png)<br>
+
+    * **MCEDIT**: открываем файл с помощью команды `mcedit test_mcedit.txt`<br>
+    * Для поиска в MCEDIT вводим `fn+F7`, вводим слово, которое хотим найти, нажимаем `Enter`<br>
+    ![MCEDIT](src/screen/part7.13.png)<br>
+    * И наше искомое слово выделяеся в редакторе<br>
+    ![MCEDIT](src/screen/part7.14.png)<br>
+    * Для замены слова в MCEDIT вводим `fn+F4` пишем "hsiuayes", нажимаем `Enter`, пишем "21 School 21", нажимаем `Enter`, выбираем `Replace`<br>
+    ![MCEDIT](src/screen/part7.15.png)<br>
+    ![MCEDIT](src/screen/part7.16.png)<br>
+    ![MCEDIT](src/screen/part7.17.png)<br>
