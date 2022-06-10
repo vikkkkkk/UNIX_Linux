@@ -217,5 +217,5 @@
         ![PERCENT_MEM](src/screen/part9.12.png)<br>
         * TIME<br>
         ![TIME](src/screen/part9.13.png)<br>
-    * Для фильтра по SSHd используются клавиши `fn+F4`, `"sshd"`, `Enter`<br>![SSHd](src/screen/part9.15.png)<br>
-    * Для поиска процессa syslog используются клавиши `fn+F3`, `"syslog"`, `Enter`<br>![Поиск syslog](src/screen/part9.16.png)<br>
+    * Для фильтра по SSHd используются клавиши `fn+F4`, `"sshd"`, `Enter`<br>![SSHd](src/screen/part9.14.png)<br>
+    * Для поиска процессa syslog используются клавиши `fn+F3`, `"syslog"`, `Enter`<br>![Поиск syslog](src/screen/part9.15.png)<br>
