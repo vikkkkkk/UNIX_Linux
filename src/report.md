@@ -183,3 +183,39 @@
         5) State - состояние сокета;<br>
         6) 0.0.0.0 в этом контексте означает "все IP-адреса на локальной машине".<br>
     * Перезагружаем систему командой `sudo reboot`<br>
+
+## Part 9. Установка и использование утилит **top**, **htop**
+1. **top**:<br>
+    * Запуск утилиты **top**<br>
+    ![Запуск top](src/screen/part9.png)<br>
+    * uptime:<br>
+    ![uptime](src/screen/part9.1.png)<br>
+    * количество авторизированных пользователей<br>
+    ![количество авторизированных пользователей](src/screen/part9.2.png)<br>
+    * общая загрузка системы<br>
+    ![общая загрузка системы](src/screen/part9.3.png)<br>
+    * общее количество процессов<br>
+    ![общее количество процессов](src/screen/part9.4.png)<br>
+    * загрузка cpu<br>
+    ![загрузка cpu](src/screen/part9.5.png)<br>
+    * загрузка памяти<br>
+    ![загрузка памяти](src/screen/part9.6.png)<br>
+    * pid процесса, занимающего больше всего памяти<br>
+    ![pid процесса, занимающего больше всего памяти](src/screen/part9.7.png)<br>
+    * pid процесса, занимающего больше всего процессорного времени<br>
+    ![pid процесса, занимающего больше всего процессорного времени](src/screen/part9.8.png)<br>
+
+2. **htop**:<br>
+    * Запуск утилиты **htop** <br>
+    ![Запуск htop](src/screen/part9.9.png)<br>
+    * Для выбора поля сортировки использовать `F6`:
+        * PID<br>
+        ![PID](src/screen/part9.10.png)<br>
+        * PERCENT_CPU<br>
+        ![PERCENT_CPU](src/screen/part9.11.png)<br>
+        * PERCENT_MEM<br>
+        ![PERCENT_MEM](src/screen/part9.12.png)<br>
+        * TIME<br>
+        ![TIME](src/screen/part9.13.png)<br>
+    * Для фильтра по SSHd используются клавиши `fn+F4`, `"sshd"`, `Enter`<br>![SSHd](src/screen/part9.15.png)<br>
+    * Для поиска процессa syslog используются клавиши `fn+F3`, `"syslog"`, `Enter`<br>![Поиск syslog](src/screen/part9.16.png)<br>
